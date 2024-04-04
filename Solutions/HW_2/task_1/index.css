@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.rubik {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.sedgwick {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancing {
+    font-family: "Dancing Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fjalla {
+    font-family: "Fjalla One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.indie {
+    font-family: "Indie Flower", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
