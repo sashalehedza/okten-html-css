@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#pink {
+  background-color: pink;
+  color: black;
+}
+
+#black {
+  background-color: black;
+  color: white;
+}
+
+#pink p,
+#black p {
+  width: 80vw;
+}

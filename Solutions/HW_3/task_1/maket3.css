@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+header,
+footer {
+  height: 10vh;
+  background: #d9d9d9;
+}
+
+.navbar {
+  height: 20vh;
+  background: #c2c4ac;
+}
+
+.container {
+  height: 60vh;
+  display: flex;
+}
+
+.side {
+  height: 100%;
+  width: 20vw;
+  background: #9ea087;
+}
+
+.center {
+  height: 100%;
+  width: 60vw;
+  background: #78786f;
+}
+
+.color1 {
+  background: #78786f;
+}
+.color2 {
+  background: #61615c;
+}
