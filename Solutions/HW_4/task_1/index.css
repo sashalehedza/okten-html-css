@@ -69,7 +69,7 @@ section {
 }
 
 #second-section {
-  background: url('./assets/image3.png');
+  background: url('./assets/image8.png');
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -93,7 +93,7 @@ section {
 }
 
 #third-section {
-  background: url('./assets/image3.png');
+  background: url('./assets/image8.png');
   background-size: cover;
   display: flex;
   justify-content: center;
