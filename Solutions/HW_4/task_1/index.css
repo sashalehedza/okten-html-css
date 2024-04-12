@@ -22,7 +22,7 @@ section {
   height: 45vh;
   width: 70vw;
   background: #faf9f7;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .first-section-content__left {
@@ -42,7 +42,7 @@ section {
 
 .first-section-content__right-title {
   color: #000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-family: KoHo;
   font-size: 45px;
   font-style: normal;
@@ -65,7 +65,7 @@ section {
   border-radius: 5px;
   border: 1px solid rgba(156, 152, 152, 0.1);
   background: rgba(217, 217, 217, 0.6);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 #second-section {
@@ -115,12 +115,16 @@ section {
   height: 100%;
   width: 100%;
   background: rgba(83, 83, 83, 0.4);
+  padding: 15px;
+}
+
+.third-section__container-item div {
+  height: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  gap: 40px;
-  padding: 15px;
+  padding-bottom: 85px;
 }
 
 .third-section__container-item img {
@@ -134,7 +138,7 @@ section {
   border-radius: 5px;
   border: 1px solid rgba(156, 152, 152, 0.1);
   background: rgba(217, 217, 217, 0.6);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .third-section__container-item button p {
