@@ -13,7 +13,7 @@
   padding: 10px;
 }
 
-.nav-grid {
+.nav {
   display: flex;
   grid-gap: 10px;
 }
@@ -69,7 +69,7 @@ footer {
     padding: 10px;
   }
 
-  .nav-grid {
+  .nav {
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
