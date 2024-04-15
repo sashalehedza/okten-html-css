@@ -37,6 +37,8 @@ nav a {
   color: white;
   border-radius: 8px;
   padding: 10px;
+  display: flex;
+  justify-content: end;
 }
 
 article,
@@ -45,6 +47,16 @@ footer {
   color: white;
   border-radius: 8px;
   padding: 10px;
+}
+
+article {
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 479px) {
@@ -69,6 +81,23 @@ footer {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
@@ -77,6 +106,17 @@ footer {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  article span {
+    padding: 25px;
+    transform: rotate(-90deg);
   }
 }
 
